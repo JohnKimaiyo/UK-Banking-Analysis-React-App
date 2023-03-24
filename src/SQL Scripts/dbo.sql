@@ -1,0 +1,11 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [Customer ID]
+      ,[Name]
+      ,[Surname]
+      ,[Gender]
+      ,[Age]
+      ,[Region]
+      ,[Job Classification]
+      ,[Date Joined]
+      ,[Balance]
+  FROM [UK Bank Customer Data].[dbo].['UK-Bank-Customers$']
